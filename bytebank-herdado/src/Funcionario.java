@@ -8,10 +8,8 @@ public abstract class Funcionario {
 	public Funcionario(){
 		
 	}
-
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	// método sem corpo, não há implementação
+	public abstract double getBonificacao();
 
 	public String getNome() {
 		return nome;
